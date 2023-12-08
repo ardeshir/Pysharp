@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CKhjLJFYmsPalb2zpz38V8CkVQ1kflBj1hYCp4+k+I9QUfrUzkdP0lzWjpoTriRAFYaWWMEpcSRKfrPknHBSfg==",
+  "success": true,
+  "projectFilePath": "/Users/ardeshir/dotnetcode/Solver/Solver.csproj",
+  "expectedPackageFiles": [
+    "/Users/ardeshir/.nuget/packages/gurobi.optimizer/11.0.0/gurobi.optimizer.11.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

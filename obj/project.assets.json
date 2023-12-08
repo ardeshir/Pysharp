@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Gurobi.Optimizer/11.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/gurobi110.netstandard20.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/gurobi110.netstandard20.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/Gurobi.Optimizer.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libgurobi110.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libgurobi110.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libgurobi110.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libgurobi110.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/gurobi110.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gurobi.Optimizer/11.0.0": {
+      "sha512": "7GT5FiPB/jopcJxy/WcBzmwzf0shLx9iZhz/YVmPEHPxuo6wHTwXjDKUykUZ0rdq1G0O9lijvIq2SMvxUYIazg==",
+      "type": "package",
+      "path": "gurobi.optimizer/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Gurobi.Optimizer.targets",
+        "content/logo-final.png",
+        "docs/readme.md",
+        "gurobi.optimizer.11.0.0.nupkg.sha512",
+        "gurobi.optimizer.nuspec",
+        "lib/netstandard2.0/gurobi110.netstandard20.dll",
+        "lib/netstandard2.0/gurobi110.netstandard20.xml",
+        "runtimes/linux-arm64/native/libgurobi110.so",
+        "runtimes/linux-x64/native/libgurobi110.so",
+        "runtimes/osx-arm64/native/libgurobi110.dylib",
+        "runtimes/osx-x64/native/libgurobi110.dylib",
+        "runtimes/win-x64/native/gurobi110.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Gurobi.Optimizer >= 11.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ardeshir/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ardeshir/dotnetcode/Solver/Solver.csproj",
+      "projectName": "Solver",
+      "projectPath": "/Users/ardeshir/dotnetcode/Solver/Solver.csproj",
+      "packagesPath": "/Users/ardeshir/.nuget/packages/",
+      "outputPath": "/Users/ardeshir/dotnetcode/Solver/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/ardeshir/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Gurobi.Optimizer": {
+            "target": "Package",
+            "version": "[11.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
